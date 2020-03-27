@@ -174,6 +174,7 @@ def main():
         while True:
             viewtripdata = input('Would you like to view individual trip data? Type yes or no?')
             print(df)
+			print(df)
             if viewtripdata.lower() != 'yes':
                 break
         restart = input('\nWould you like to restart? Enter yes or no.\n')
